@@ -41,6 +41,10 @@ You can also generate histograms simulation outcomes if you have matplotlib and 
 
     python estimate_schedule.py example_input.txt plot.png
     
+The image file created looks like the following.  The y-axis is the count, and the x-axis is the time to completion for all the tasks in your project, in whatever units you used in the input file.
+
+![example histogram](https://raw.github.com/turtlemonvh/pysimplan/master/example_out.png "Example Histogram")
+
 # Customizing
 
 You can change the constants in the top of the script to tailor the simulation to your needs.
